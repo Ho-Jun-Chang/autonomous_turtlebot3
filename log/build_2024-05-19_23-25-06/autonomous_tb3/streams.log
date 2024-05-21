@@ -1,0 +1,21 @@
+[0.386s] Invoking command in '/home/kroad/autonomous_tb3_ws/build/autonomous_tb3': PYTHONPATH=/home/kroad/autonomous_tb3_ws/build/autonomous_tb3/prefix_override:/home/kroad/autonomous_tb3_ws/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kroad/autonomous_tb3_ws/build/autonomous_tb3/build --no-deps symlink_data --force
+[0.555s] running develop
+[0.556s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.556s]   warnings.warn(
+[0.668s] running egg_info
+[0.668s] writing autonomous_tb3.egg-info/PKG-INFO
+[0.668s] writing dependency_links to autonomous_tb3.egg-info/dependency_links.txt
+[0.668s] writing entry points to autonomous_tb3.egg-info/entry_points.txt
+[0.668s] writing requirements to autonomous_tb3.egg-info/requires.txt
+[0.668s] writing top-level names to autonomous_tb3.egg-info/top_level.txt
+[0.669s] reading manifest file 'autonomous_tb3.egg-info/SOURCES.txt'
+[0.670s] writing manifest file 'autonomous_tb3.egg-info/SOURCES.txt'
+[0.670s] running build_ext
+[0.670s] Creating /home/kroad/autonomous_tb3_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous-tb3.egg-link (link to .)
+[0.671s] Installing occupancy_grid_pub script to /home/kroad/autonomous_tb3_ws/install/autonomous_tb3/lib/autonomous_tb3
+[0.671s] 
+[0.671s] Installed /home/kroad/autonomous_tb3_ws/build/autonomous_tb3
+[0.671s] running symlink_data
+[0.671s] symbolically linking /home/kroad/autonomous_tb3_ws/build/autonomous_tb3/resource/autonomous_tb3 -> /home/kroad/autonomous_tb3_ws/install/autonomous_tb3/share/ament_index/resource_index/packages
+[0.671s] symbolically linking /home/kroad/autonomous_tb3_ws/build/autonomous_tb3/package.xml -> /home/kroad/autonomous_tb3_ws/install/autonomous_tb3/share/autonomous_tb3
+[0.688s] Invoked command in '/home/kroad/autonomous_tb3_ws/build/autonomous_tb3' returned '0': PYTHONPATH=/home/kroad/autonomous_tb3_ws/build/autonomous_tb3/prefix_override:/home/kroad/autonomous_tb3_ws/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kroad/autonomous_tb3_ws/build/autonomous_tb3/build --no-deps symlink_data --force

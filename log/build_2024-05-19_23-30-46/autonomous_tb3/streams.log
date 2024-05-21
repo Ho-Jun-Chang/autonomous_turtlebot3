@@ -1,0 +1,33 @@
+[0.389s] Invoking command in '/home/kroad/autonomous_tb3_ws/build/autonomous_tb3': PYTHONPATH=/home/kroad/autonomous_tb3_ws/build/autonomous_tb3/prefix_override:/home/kroad/autonomous_tb3_ws/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/kroad/autonomous_tb3_ws/build/autonomous_tb3/build
+[0.552s] running develop
+[0.553s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.553s]   warnings.warn(
+[0.666s] Removing /home/kroad/autonomous_tb3_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous-tb3.egg-link (link to .)
+[0.681s] Invoked command in '/home/kroad/autonomous_tb3_ws/build/autonomous_tb3' returned '0': PYTHONPATH=/home/kroad/autonomous_tb3_ws/build/autonomous_tb3/prefix_override:/home/kroad/autonomous_tb3_ws/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/kroad/autonomous_tb3_ws/build/autonomous_tb3/build
+[0.683s] Invoking command in '/home/kroad/autonomous_tb3_ws/src/autonomous_tb3': PYTHONPATH=/home/kroad/autonomous_tb3_ws/build/autonomous_tb3/prefix_override:/home/kroad/autonomous_tb3_ws/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomous_tb3 build --build-base /home/kroad/autonomous_tb3_ws/build/autonomous_tb3/build install --record /home/kroad/autonomous_tb3_ws/build/autonomous_tb3/install.log --single-version-externally-managed install_data --force
+[0.834s] running egg_info
+[0.835s] writing ../../build/autonomous_tb3/autonomous_tb3.egg-info/PKG-INFO
+[0.835s] writing dependency_links to ../../build/autonomous_tb3/autonomous_tb3.egg-info/dependency_links.txt
+[0.835s] writing entry points to ../../build/autonomous_tb3/autonomous_tb3.egg-info/entry_points.txt
+[0.835s] writing requirements to ../../build/autonomous_tb3/autonomous_tb3.egg-info/requires.txt
+[0.835s] writing top-level names to ../../build/autonomous_tb3/autonomous_tb3.egg-info/top_level.txt
+[0.836s] reading manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[0.836s] writing manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[0.836s] running build
+[0.837s] running build_py
+[0.837s] running install
+[0.837s] running install_lib
+[0.837s] creating /home/kroad/autonomous_tb3_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[0.837s] copying /home/kroad/autonomous_tb3_ws/build/autonomous_tb3/build/lib/autonomous_tb3/__init__.py -> /home/kroad/autonomous_tb3_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[0.837s] copying /home/kroad/autonomous_tb3_ws/build/autonomous_tb3/build/lib/autonomous_tb3/occupancy_grid_pub.py -> /home/kroad/autonomous_tb3_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[0.838s] byte-compiling /home/kroad/autonomous_tb3_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/__init__.py to __init__.cpython-310.pyc
+[0.838s] byte-compiling /home/kroad/autonomous_tb3_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/occupancy_grid_pub.py to occupancy_grid_pub.cpython-310.pyc
+[0.838s] running install_data
+[0.838s] copying resource/autonomous_tb3 -> /home/kroad/autonomous_tb3_ws/install/autonomous_tb3/share/ament_index/resource_index/packages
+[0.838s] copying package.xml -> /home/kroad/autonomous_tb3_ws/install/autonomous_tb3/share/autonomous_tb3
+[0.838s] running install_egg_info
+[0.839s] Copying ../../build/autonomous_tb3/autonomous_tb3.egg-info to /home/kroad/autonomous_tb3_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3-0.0.0-py3.10.egg-info
+[0.839s] running install_scripts
+[0.852s] Installing occupancy_grid_pub script to /home/kroad/autonomous_tb3_ws/install/autonomous_tb3/lib/autonomous_tb3
+[0.852s] writing list of installed files to '/home/kroad/autonomous_tb3_ws/build/autonomous_tb3/install.log'
+[0.865s] Invoked command in '/home/kroad/autonomous_tb3_ws/src/autonomous_tb3' returned '0': PYTHONPATH=/home/kroad/autonomous_tb3_ws/build/autonomous_tb3/prefix_override:/home/kroad/autonomous_tb3_ws/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomous_tb3 build --build-base /home/kroad/autonomous_tb3_ws/build/autonomous_tb3/build install --record /home/kroad/autonomous_tb3_ws/build/autonomous_tb3/install.log --single-version-externally-managed install_data --force
